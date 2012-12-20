@@ -1,0 +1,47 @@
+// Place all the styles related to the Songs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#container {
+	width: 75%;
+	margin: 0 auto;
+	background-color: #C4E5FD;
+	padding: 20px 40px;
+	border: solid 1px black;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #19010B;
+	margin-top: 20px
+}
+body {
+	background-color: grey;
+	font-family: Verdana, Helvetica, Arial;
+	font-size: 14px;
+}
+.clear {
+	clear: both;
+	height: 0;
+	overflow:hidden;
+}
+#sidebar {
+	width: 30%;
+	float: left;
+}
+#main {
+	width:70%;
+	float: left;
+}
+a, a:visited {
+	color: #00f;
+	text-decotation: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+td {
+		padding: 5px;
+}
+
+
+
