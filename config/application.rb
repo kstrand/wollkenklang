@@ -23,8 +23,7 @@ module Mp3app
 
      :access_key_id     => ENV['S3_KEY'],
      :secret_access_key => ENV['S3_SECRET']
-     #:access_key_id     => "AKIAJKB5OKSURGKH5WUA",
-     #:secret_access_key => "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"
+  
    )
     BUCKET = 'kasmp3' 
     # Settings in config/environments/* take precedence over those specified here.
