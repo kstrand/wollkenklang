@@ -8,6 +8,8 @@ gem 'aws-s3', :require => 'aws/s3'
 
 gem 'omniauth-facebook'
 
+gem 'pg'
+
 
 group :development do
 	gem 'pg'
