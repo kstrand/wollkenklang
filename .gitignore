@@ -14,5 +14,8 @@
 /log/*.log
 /tmp
 
+## the store to ignore
+/.DS_Store
+
 # Ignore .env file for forman
 /.env

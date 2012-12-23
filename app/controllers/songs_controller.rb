@@ -15,6 +15,7 @@ class SongsController < ApplicationController
   end
 
   def delete
+    puts "hi"
   	if (params[:song])
       AWS::S3::S3Object.find(params[:song], Mp3app::Application::BUCKET).delete
 			redirect_to root_path
