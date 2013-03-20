@@ -1,8 +1,10 @@
 class SongsController < ApplicationController
+  before_filter :authenticate_user!
+
   include AWS::S3
 
   def index
-    @songs = AWS::S3::Bucket.find(Mp3app::Application::BUCKET).objects
+     @songs = AWS::S3::Bucket.find(Mp3app::Application::BUCKET).objects
   end
 
   def upload
@@ -11,7 +13,7 @@ class SongsController < ApplicationController
         redirect_to root_path
     rescue
         render :text => "It didn't upload sorry : / "
-    end
+    end 
   end
 
   def delete

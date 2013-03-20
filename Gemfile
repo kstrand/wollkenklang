@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+
 
 gem 'rails', '3.2.9'
 
@@ -10,6 +10,7 @@ gem 'omniauth-facebook'
 
 gem 'pg'
 
+gem "paperclip", "~> 3.0"
 
 group :development do
 	gem 'pg'
